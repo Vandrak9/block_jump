@@ -1,0 +1,8 @@
+App(
+    appid="block_jump",
+    name="Block Jump",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="block_jump_app",
+    stack_size=2 * 1024,
+    fap_category="Games",
+)
